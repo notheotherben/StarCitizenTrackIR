@@ -1,0 +1,15 @@
+<!--Put this in your "%StarCitizen%/CitizenClient/Data/Controls/Mappings" directory-->
+<!--Then load it using "pp_rebindkeys layout_trackir" from the in game console-->
+<ActionMaps version="0">
+	<actionmap name="spaceship_view">
+		<action name="v_view_yaw">
+			<rebind device="joystick" input="js2_x" />
+		</action>
+		<action name="v_view_pitch">
+			<rebind device="joystick" input="js2_y" />
+		</action>
+		<action name="v_view_roll_absolute">
+			<rebind device="joystick" input="js2_z" />
+		</action>
+	</actionmap>
+</ActionMaps>
